@@ -71,6 +71,9 @@ nav img {
 /*=============================================
 =                   FORM                     =
 =============================================*/
+.alert {
+   display: none;
+}
 #section-form label,
 #section-form .btn {
    font-size: 0.75rem;

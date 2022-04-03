@@ -25,4 +25,12 @@ $(function () {
          $(".navbar").removeClass("fixed-top")
       }
    })
+
+   /*----------  Show alert  ----------*/
+   $(".btn").click(function (event) {
+      //  prevent submit
+      event.preventDefault()
+      // show alert
+      $(".alert").show("")
+   })
 })
