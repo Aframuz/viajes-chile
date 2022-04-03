@@ -29,4 +29,11 @@ nav > div.container-fluid {
 .icon {
    background-color: #0dcaf0;
 }
+
+/*=============================================
+=                   CARDS                     =
+=============================================*/
+#cards .card-body {
+   background-color: #0dcaf0;
+}
 /*----------  TESTS  ----------*/
