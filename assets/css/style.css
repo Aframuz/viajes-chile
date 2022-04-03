@@ -36,4 +36,26 @@ nav > div.container-fluid {
 #cards .card-body {
    background-color: #0dcaf0;
 }
+
+/*=============================================
+=                   FORM                     =
+=============================================*/
+#typeform .btn {
+   background-color: #0dcaf0;
+   color: #fff;
+}
+/*=============================================
+=                   FOOTER                    =
+=============================================*/
+footer {
+   background-color: #0dcaf0;
+}
+footer > div.container-fluid {
+   width: 60%;
+}
+/* footer i {
+   color: #0dcaf0;
+   background-color: #fff;
+   border-radius: 5%;
+} */
 /*----------  TESTS  ----------*/
