@@ -4,22 +4,33 @@
 body {
    font-family: "Raleway", sans-serif;
    color: #fff;
-   /* background-color: #242423; */
-   background-color: #000;
+   background-color: #242423;
+}
+.icon,
+#cards .card-body,
+#section-form .btn,
+footer {
+   background-color: #0dcaf0;
 }
 .w-80 {
    width: 80%;
 }
-
 h2 {
    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+nav,
+#section-form input,
+#section-form textarea {
+   font-size: 0.8rem;
+}
+#about p,
+#cards p {
+   font-size: 0.75rem;
+}
+
 /*=============================================
 =                     NAV                     =
 =============================================*/
-nav {
-   font-size: 0.8rem;
-}
 nav .navbar-brand {
    font-size: 1rem;
 }
@@ -34,15 +45,11 @@ nav img {
 #section-carousel img {
    max-height: 666px;
 }
+
 /*=============================================
 =                   ABOUT                     =
 =============================================*/
-#about p {
-   font-size: 0.75rem;
-}
-.icon {
-   background-color: #0dcaf0;
-}
+
 #about i {
    vertical-align: middle;
 }
@@ -59,38 +66,21 @@ nav img {
 #cards h5 {
    font-size: 0.9rem;
 }
-#cards p {
-   font-size: 0.75rem;
-}
-#cards .card-body {
-   background-color: #0dcaf0;
-}
 
 /*=============================================
 =                   FORM                     =
 =============================================*/
-#typeform label {
+#section-form label,
+#section-form .btn {
    font-size: 0.75rem;
 }
-#typeform input {
-   font-size: 0.8rem;
-}
-#typeform textarea {
-   font-size: 0.8rem;
-}
-#typeform .btn {
-   font-size: 0.75rem;
-}
-#typeform .btn {
-   background-color: #0dcaf0;
+#section-form .btn {
    color: #fff;
 }
+
 /*=============================================
 =                   FOOTER                    =
 =============================================*/
-footer {
-   background-color: #0dcaf0;
-}
 footer > div.container-fluid {
    width: 60%;
 }
@@ -109,5 +99,3 @@ footer span {
       font-size: 1rem;
    }
 }
-
-/*----------  TESTS  ----------*/
