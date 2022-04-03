@@ -18,6 +18,10 @@ footer {
 h2 {
    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+#cards h2,
+#section-form h2 {
+   width: 95%;
+}
 nav,
 #section-form input,
 #section-form textarea {
@@ -57,9 +61,6 @@ nav img {
 /*=============================================
 =                   CARDS                     =
 =============================================*/
-#cards h2 {
-   width: 95%;
-}
 #cards img {
    max-height: 120px;
 }
