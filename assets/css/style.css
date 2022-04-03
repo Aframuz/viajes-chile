@@ -12,9 +12,7 @@ nav > div.container-fluid {
 /*=============================================
 =                  CAROUSEL                   =
 =============================================*/
-#carousel img {
-   width: 100%;
-}
+
 /*----------  TESTS  ----------*/
 body {
    background-color: lightblue;
