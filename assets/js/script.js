@@ -1,6 +1,12 @@
 $(function () {
    // variables
    var win = $(this)
+   var tooltipTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="tooltip"]')
+   )
+   var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+   })
 
    /*----------  navbar position  ----------*/
    // First windows size check
