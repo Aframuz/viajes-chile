@@ -7,7 +7,7 @@ body {
    /* background-color: #242423; */
    background-color: #000;
 }
-.w-85 {
+.w-80 {
    width: 80%;
 }
 
@@ -94,9 +94,20 @@ footer {
 footer > div.container-fluid {
    width: 60%;
 }
-/* footer i {
-   color: #0dcaf0;
-   background-color: #fff;
-   border-radius: 5%;
-} */
+footer span {
+   font-size: 1.25rem;
+}
+
+/*=============================================
+=                   QUERIES                   =
+=============================================*/
+@media screen and (max-width: 576px) {
+   footer > div.container-fluid {
+      width: 80%;
+   }
+   footer span {
+      font-size: 1rem;
+   }
+}
+
 /*----------  TESTS  ----------*/
