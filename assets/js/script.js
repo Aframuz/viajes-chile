@@ -2,7 +2,7 @@ $(function () {
    // variables
    var win = $(this)
 
-   /*----------  navbar behavior  ----------*/
+   /*----------  navbar position  ----------*/
    // First windows size check
    if (win.width() > 576) {
       // add class to navbar
